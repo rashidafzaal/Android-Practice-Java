@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViewPagerAndFragments</string>
+
+
+    <string name="todaymiles">Today\'s Miles</string>
+    <string name="totalGPsMiles">Total GPS Miles</string>
+    <string name="calories">Calories</string>
+    <string name="activeTime">Active Time</string>
+    <string name="miles">Miles</string>
+</resources>

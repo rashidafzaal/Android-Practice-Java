@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CenterFragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/firstLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/caloriesLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/caloriesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calories"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/caloriesTxt"
+                android:text="7"
+                android:textColor="@color/myOrange"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activeTimeLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/activeTimeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activeTime"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/activeTime"
+                android:layout_below="@+id/activeTimeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0h 2m"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/myGreen"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/milesLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/milesTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/miles"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/miles"
+                android:layout_below="@+id/milesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.10"
+                android:textColor="@color/colorAccent"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/firstLay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img2"/>
+
+    <Button
+        android:id="@+id/myGoalsBtn"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="My Goals"
+        android:textSize="12dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_below="@+id/img"
+        android:background="@drawable/my_goals_button_background"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img3"
+        android:layout_below="@+id/myGoalsBtn"/>
+
+
+</RelativeLayout>

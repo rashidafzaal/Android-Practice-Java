@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_bar_msg"
+        android:icon="@drawable/steps"
+        android:title="Download"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bar_add"
+        android:icon="@drawable/trends"
+        android:title="Download"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_history"
+        android:title="History"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/menu_feedback"
+        android:title="Feedback"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/menu_faq"
+        android:title="FAQ"
+        app:showAsAction="collapseActionView"/>
+
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="menuBtnWidth">22dp</dimen>
+    <dimen name="menuBtnHeight">22dp</dimen>
+
+    <dimen name="stepBtnWidth">50dp</dimen>
+    <dimen name="stepBtnHeight">50dp</dimen>
+
+    <dimen name="menuTxtSize">10dp</dimen>
+
+    <dimen name="settingsIconSize">25dp</dimen>
+
+    <dimen name="bottoMenuHeight">60dp</dimen>
+    <dimen name="settingsTextSize">16dp</dimen>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <color name="colorPrimary">#3882ae</color>
+    <color name="colorPrimaryDark">#3882ae</color>
+    <color name="colorAccent">#4c99c6</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#f4f3f3</color>
+
+    <color name="myOrange">#f18400</color>
+    <color name="myGreen">#37de04</color>
+    <color name="darkGray">#e7e7e7</color>
+    <color name="darkestGray">#979797</color>
+
+</resources>

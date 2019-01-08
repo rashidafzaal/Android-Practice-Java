@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottoMenuHeight"
+        android:background="@color/gray">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/rel2">
+
+            <ImageView
+                android:id="@+id/imgView1"
+                android:layout_width="@dimen/menuBtnWidth"
+                android:layout_height="@dimen/menuBtnHeight"
+                android:src="@drawable/me" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgView1"
+                android:text="Me"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/menuTxtSize"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/imgView3"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/imgView2"
+                android:layout_width="@dimen/menuBtnWidth"
+                android:layout_height="@dimen/menuBtnHeight"
+                android:src="@drawable/trends"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgView2"
+                android:textSize="@dimen/menuTxtSize"
+                android:text="Trends" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgView3"
+            android:layout_width="@dimen/stepBtnWidth"
+            android:layout_height="@dimen/stepBtnHeight"
+            android:layout_centerInParent="true"
+            android:src="@drawable/steps" />
+
+        <RelativeLayout
+            android:id="@+id/rel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/imgView3">
+
+            <ImageView
+                android:id="@+id/imgView4"
+                android:layout_width="@dimen/menuBtnWidth"
+                android:layout_height="@dimen/menuBtnHeight"
+                android:src="@drawable/feed"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgView4"
+                android:textSize="@dimen/menuTxtSize"
+                android:text="Feed" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rel5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/rel4">
+
+            <ImageView
+                android:id="@+id/imgView5"
+                android:layout_width="@dimen/menuBtnWidth"
+                android:layout_height="@dimen/menuBtnHeight"
+                android:src="@drawable/explore"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgView5"
+                android:textSize="@dimen/menuTxtSize"
+                android:text="Explore" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
