@@ -1,6 +1,6 @@
 # Android Practice JAVA
 
-This Repositry includes different codes, which would assist individuals to learn JAVA
+This Repositry includes different codes, which would assist individuals to learn JAVA.
 
 - CustomListView with Search: https://www.youtube.com/watch?v=o1CdGxvLHDU&feature=youtu.be
 - LifeCyclePractice: https://www.youtube.com/watch?v=O6DjnwnrnDo&feature=youtu.be
